@@ -13,7 +13,11 @@ const firebaseConfig = {
   appId: import.meta.env.VITE_FIREBASE_APP_ID
 };
 
-const isFirebaseConfigured = !!import.meta.env.VITE_FIREBASE_API_KEY;
+const isFirebaseConfigured = !!(
+  import.meta.env.VITE_FIREBASE_API_KEY &&
+  import.meta.env.VITE_FIREBASE_API_KEY !== 'undefined' &&
+  import.meta.env.VITE_FIREBASE_API_KEY !== ''
+);
 
 let app;
 let auth;
@@ -28,7 +32,7 @@ if (isFirebaseConfigured) {
 } else {
   // Setup Fallback Mock Firebase Service
   isMock = true;
-  console.warn("Firebase credentials not detected. Falling back to local storage Mock Firebase Service.");
+  console.log("DSA Tracker: Operating in client-side storage mode (No Firebase credentials detected).");
 
   // Mock database storage
   const getMockDocKey = (coll, id) => `mock_firestore_${coll}_${id}`;

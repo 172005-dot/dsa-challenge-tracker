@@ -23,6 +23,19 @@ export default function Dashboard() {
 
   const [showReport, setShowReport] = useState(false);
 
+  // Find "Today's Day" (first day that is not 3/3 solved)
+  const getTodaysDay = () => {
+    for (const dayObj of SHEET_DAYS) {
+      let solvedCount = 0;
+      dayObj.problems.forEach(p => {
+        if (progress[p.id]?.status === 'Solved') solvedCount++;
+      });
+      if (solvedCount < 3) return dayObj.day;
+    }
+    return 11; // fallback to Day 11 if all solved
+  };
+  const todaysDay = getTodaysDay();
+
   // Get active recall items due today
   const todayStr = new Date().toISOString().split('T')[0];
   const recallDueCount = Object.values(spacedRepetition).filter(item => {
@@ -149,18 +162,7 @@ export default function Dashboard() {
 
   const report = getWeeklyReport();
 
-  // Find "Today's Day" (first day that is not 3/3 solved)
-  const getTodaysDay = () => {
-    for (const dayObj of SHEET_DAYS) {
-      let solvedCount = 0;
-      dayObj.problems.forEach(p => {
-        if (progress[p.id]?.status === 'Solved') solvedCount++;
-      });
-      if (solvedCount < 3) return dayObj.day;
-    }
-    return 11; // fallback to Day 11 if all solved
-  };
-  const todaysDay = getTodaysDay();
+
 
   return (
     <div className="space-y-8 max-w-7xl mx-auto px-4 pb-12">
