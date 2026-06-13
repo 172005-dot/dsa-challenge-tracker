@@ -50,229 +50,229 @@ const TOPICS_BY_DAY = {
 
 const RAW_PROBLEMS = [
   // Day 1: Arrays Part-I
-  { day: 1, index: 1, name: "Set Matrix Zeroes", difficulty: "Medium", category: "Arrays", leetcode: "https://leetcode.com/problems/set-matrix-zeroes/" },
-  { day: 1, index: 2, name: "Pascal's Triangle", difficulty: "Easy", category: "Arrays", leetcode: "https://leetcode.com/problems/pascals-triangle/" },
-  { day: 1, index: 3, name: "Next Permutation", difficulty: "Medium", category: "Arrays", leetcode: "https://leetcode.com/problems/next-permutation/" },
+  { day: 1, index: 1, name: "Set Matrix Zeroes", difficulty: "Medium", category: "Arrays", leetcode: "https://leetcode.com/problems/set-matrix-zeroes/", visualizerType: "grid" },
+  { day: 1, index: 2, name: "Pascal's Triangle", difficulty: "Easy", category: "Arrays", leetcode: "https://leetcode.com/problems/pascals-triangle/", visualizerType: "pascal" },
+  { day: 1, index: 3, name: "Next Permutation", difficulty: "Medium", category: "Arrays", leetcode: "https://leetcode.com/problems/next-permutation/", visualizerType: "next-permutation" },
 
   // Day 2: Arrays Part-I
-  { day: 2, index: 1, name: "Maximum Subarray (Kadane's)", difficulty: "Medium", category: "Arrays", leetcode: "https://leetcode.com/problems/maximum-subarray/" },
-  { day: 2, index: 2, name: "Sort Colors (0s 1s 2s)", difficulty: "Medium", category: "Arrays", leetcode: "https://leetcode.com/problems/sort-colors/" },
-  { day: 2, index: 3, name: "Best Time to Buy and Sell Stock", difficulty: "Easy", category: "Arrays", leetcode: "https://leetcode.com/problems/best-time-to-buy-and-sell-stock/" },
+  { day: 2, index: 1, name: "Maximum Subarray (Kadane's)", difficulty: "Medium", category: "Arrays", leetcode: "https://leetcode.com/problems/maximum-subarray/", visualizerType: "kadane" },
+  { day: 2, index: 2, name: "Sort Colors (0s 1s 2s)", difficulty: "Medium", category: "Arrays", leetcode: "https://leetcode.com/problems/sort-colors/", visualizerType: "sort-colors" },
+  { day: 2, index: 3, name: "Best Time to Buy and Sell Stock", difficulty: "Easy", category: "Arrays", leetcode: "https://leetcode.com/problems/best-time-to-buy-and-sell-stock/", visualizerType: "kadane" },
 
   // Day 3: Arrays Part-II
-  { day: 3, index: 1, name: "Rotate Image", difficulty: "Medium", category: "Arrays", leetcode: "https://leetcode.com/problems/rotate-image/" },
-  { day: 3, index: 2, name: "Merge Intervals", difficulty: "Medium", category: "Arrays", leetcode: "https://leetcode.com/problems/merge-intervals/" },
-  { day: 3, index: 3, name: "Merge Sorted Array", difficulty: "Easy", category: "Arrays", leetcode: "https://leetcode.com/problems/merge-sorted-array/" },
+  { day: 3, index: 1, name: "Rotate Image", difficulty: "Medium", category: "Arrays", leetcode: "https://leetcode.com/problems/rotate-image/", visualizerType: "grid" },
+  { day: 3, index: 2, name: "Merge Intervals", difficulty: "Medium", category: "Arrays", leetcode: "https://leetcode.com/problems/merge-intervals/", visualizerType: "two-sum" },
+  { day: 3, index: 3, name: "Merge Sorted Array", difficulty: "Easy", category: "Arrays", leetcode: "https://leetcode.com/problems/merge-sorted-array/", visualizerType: "two-sum" },
 
   // Day 4: Arrays Part-II
-  { day: 4, index: 1, name: "Find the Duplicate Number", difficulty: "Medium", category: "Arrays", leetcode: "https://leetcode.com/problems/find-the-duplicate-number/" },
-  { day: 4, index: 2, name: "Repeat and Missing Number", difficulty: "Medium", category: "Arrays", leetcode: "https://practice.geeksforgeeks.org/problems/find-missing-and-repeating2556/1" },
-  { day: 4, index: 3, name: "Inversion of Array", difficulty: "Hard", category: "Arrays", leetcode: "https://practice.geeksforgeeks.org/problems/inversion-of-array-1587115620/1" },
+  { day: 4, index: 1, name: "Find the Duplicate Number", difficulty: "Medium", category: "Arrays", leetcode: "https://leetcode.com/problems/find-the-duplicate-number/", visualizerType: "two-sum" },
+  { day: 4, index: 2, name: "Repeat and Missing Number", difficulty: "Medium", category: "Arrays", leetcode: "https://practice.geeksforgeeks.org/problems/find-missing-and-repeating2556/1", visualizerType: "two-sum" },
+  { day: 4, index: 3, name: "Inversion of Array", difficulty: "Hard", category: "Arrays", leetcode: "https://practice.geeksforgeeks.org/problems/inversion-of-array-1587115620/1", visualizerType: "merge-sort" },
 
   // Day 5: Arrays Part-III
-  { day: 5, index: 1, name: "Search a 2D Matrix", difficulty: "Medium", category: "Arrays", leetcode: "https://leetcode.com/problems/search-a-2d-matrix/" },
-  { day: 5, index: 2, name: "Pow(x, n)", difficulty: "Medium", category: "Arrays", leetcode: "https://leetcode.com/problems/powx-n/" },
-  { day: 5, index: 3, name: "Majority Element", difficulty: "Easy", category: "Arrays", leetcode: "https://leetcode.com/problems/majority-element/" },
+  { day: 5, index: 1, name: "Search a 2D Matrix", difficulty: "Medium", category: "Arrays", leetcode: "https://leetcode.com/problems/search-a-2d-matrix/", visualizerType: "binary-search" },
+  { day: 5, index: 2, name: "Pow(x, n)", difficulty: "Medium", category: "Arrays", leetcode: "https://leetcode.com/problems/powx-n/", visualizerType: "binary-search" },
+  { day: 5, index: 3, name: "Majority Element", difficulty: "Easy", category: "Arrays", leetcode: "https://leetcode.com/problems/majority-element/", visualizerType: "two-sum" },
 
   // Day 6: Arrays Part-III
-  { day: 6, index: 1, name: "Majority Element II", difficulty: "Medium", category: "Arrays", leetcode: "https://leetcode.com/problems/majority-element-ii/" },
-  { day: 6, index: 2, name: "Unique Paths", difficulty: "Medium", category: "Arrays", leetcode: "https://leetcode.com/problems/unique-paths/" },
-  { day: 6, index: 3, name: "Reverse Pairs", difficulty: "Hard", category: "Arrays", leetcode: "https://leetcode.com/problems/reverse-pairs/" },
+  { day: 6, index: 1, name: "Majority Element II", difficulty: "Medium", category: "Arrays", leetcode: "https://leetcode.com/problems/majority-element-ii/", visualizerType: "two-sum" },
+  { day: 6, index: 2, name: "Unique Paths", difficulty: "Medium", category: "Arrays", leetcode: "https://leetcode.com/problems/unique-paths/", visualizerType: "dp" },
+  { day: 6, index: 3, name: "Reverse Pairs", difficulty: "Hard", category: "Arrays", leetcode: "https://leetcode.com/problems/reverse-pairs/", visualizerType: "merge-sort" },
 
   // Day 7: Arrays Part-IV
-  { day: 7, index: 1, name: "Two Sum", difficulty: "Easy", category: "Arrays", leetcode: "https://leetcode.com/problems/two-sum/" },
-  { day: 7, index: 2, name: "4Sum", difficulty: "Medium", category: "Arrays", leetcode: "https://leetcode.com/problems/4sum/" },
-  { day: 7, index: 3, name: "Longest Consecutive Sequence", difficulty: "Medium", category: "Arrays", leetcode: "https://leetcode.com/problems/longest-consecutive-sequence/" },
+  { day: 7, index: 1, name: "Two Sum", difficulty: "Easy", category: "Arrays", leetcode: "https://leetcode.com/problems/two-sum/", visualizerType: "two-sum" },
+  { day: 7, index: 2, name: "4Sum", difficulty: "Medium", category: "Arrays", leetcode: "https://leetcode.com/problems/4sum/", visualizerType: "two-sum" },
+  { day: 7, index: 3, name: "Longest Consecutive Sequence", difficulty: "Medium", category: "Arrays", leetcode: "https://leetcode.com/problems/longest-consecutive-sequence/", visualizerType: "two-sum" },
 
   // Day 8: Arrays Part-IV
-  { day: 8, index: 1, name: "Largest Subarray with 0 Sum", difficulty: "Medium", category: "Arrays", leetcode: "https://practice.geeksforgeeks.org/problems/largest-subarray-with-0-sum/1" },
-  { day: 8, index: 2, name: "Subarrays with XOR K", difficulty: "Medium", category: "Arrays", leetcode: "https://www.naukri.com/code360/problems/subarrays-with-xor-k_6826258" },
-  { day: 8, index: 3, name: "Longest Substring Without Repeating Characters", difficulty: "Medium", category: "Arrays", leetcode: "https://leetcode.com/problems/longest-substring-without-repeating-characters/" },
+  { day: 8, index: 1, name: "Largest Subarray with 0 Sum", difficulty: "Medium", category: "Arrays", leetcode: "https://practice.geeksforgeeks.org/problems/largest-subarray-with-0-sum/1", visualizerType: "kadane" },
+  { day: 8, index: 2, name: "Subarrays with XOR K", difficulty: "Medium", category: "Arrays", leetcode: "https://www.naukri.com/code360/problems/subarrays-with-xor-k_6826258", visualizerType: "kadane" },
+  { day: 8, index: 3, name: "Longest Substring Without Repeating Characters", difficulty: "Medium", category: "Arrays", leetcode: "https://leetcode.com/problems/longest-substring-without-repeating-characters/", visualizerType: "two-sum" },
 
   // Day 9: Linked List Part-I
-  { day: 9, index: 1, name: "Reverse Linked List", difficulty: "Easy", category: "Linked List", leetcode: "https://leetcode.com/problems/reverse-linked-list/" },
-  { day: 9, index: 2, name: "Middle of the Linked List", difficulty: "Easy", category: "Linked List", leetcode: "https://leetcode.com/problems/middle-of-the-linked-list/" },
-  { day: 9, index: 3, name: "Merge Two Sorted Lists", difficulty: "Easy", category: "Linked List", leetcode: "https://leetcode.com/problems/merge-two-sorted-lists/" },
+  { day: 9, index: 1, name: "Reverse Linked List", difficulty: "Easy", category: "Linked List", leetcode: "https://leetcode.com/problems/reverse-linked-list/", visualizerType: "linked-list" },
+  { day: 9, index: 2, name: "Middle of the Linked List", difficulty: "Easy", category: "Linked List", leetcode: "https://leetcode.com/problems/middle-of-the-linked-list/", visualizerType: "linked-list" },
+  { day: 9, index: 3, name: "Merge Two Sorted Lists", difficulty: "Easy", category: "Linked List", leetcode: "https://leetcode.com/problems/merge-two-sorted-lists/", visualizerType: "merge-sort" },
 
   // Day 10: Linked List Part-I
-  { day: 10, index: 1, name: "Remove Nth Node From End of List", difficulty: "Medium", category: "Linked List", leetcode: "https://leetcode.com/problems/remove-nth-node-from-end-of-list/" },
-  { day: 10, index: 2, name: "Add Two Numbers", difficulty: "Medium", category: "Linked List", leetcode: "https://leetcode.com/problems/add-two-numbers/" },
-  { day: 10, index: 3, name: "Delete Node in a Linked List", difficulty: "Easy", category: "Linked List", leetcode: "https://leetcode.com/problems/delete-node-in-a-linked-list/" },
+  { day: 10, index: 1, name: "Remove Nth Node From End of List", difficulty: "Medium", category: "Linked List", leetcode: "https://leetcode.com/problems/remove-nth-node-from-end-of-list/", visualizerType: "linked-list" },
+  { day: 10, index: 2, name: "Add Two Numbers", difficulty: "Medium", category: "Linked List", leetcode: "https://leetcode.com/problems/add-two-numbers/", visualizerType: "linked-list" },
+  { day: 10, index: 3, name: "Delete Node in a Linked List", difficulty: "Easy", category: "Linked List", leetcode: "https://leetcode.com/problems/delete-node-in-a-linked-list/", visualizerType: "linked-list" },
 
   // Day 11: Linked List Part-II
-  { day: 11, index: 1, name: "Intersection of Two Linked Lists", difficulty: "Easy", category: "Linked List", leetcode: "https://leetcode.com/problems/intersection-of-two-linked-lists/" },
-  { day: 11, index: 2, name: "Linked List Cycle", difficulty: "Easy", category: "Linked List", leetcode: "https://leetcode.com/problems/linked-list-cycle/" },
-  { day: 11, index: 3, name: "Linked List Cycle II", difficulty: "Medium", category: "Linked List", leetcode: "https://leetcode.com/problems/linked-list-cycle-ii/" },
+  { day: 11, index: 1, name: "Intersection of Two Linked Lists", difficulty: "Easy", category: "Linked List", leetcode: "https://leetcode.com/problems/intersection-of-two-linked-lists/", visualizerType: "linked-list" },
+  { day: 11, index: 2, name: "Linked List Cycle", difficulty: "Easy", category: "Linked List", leetcode: "https://leetcode.com/problems/linked-list-cycle/", visualizerType: "linked-list" },
+  { day: 11, index: 3, name: "Linked List Cycle II", difficulty: "Medium", category: "Linked List", leetcode: "https://leetcode.com/problems/linked-list-cycle-ii/", visualizerType: "linked-list" },
 
   // Day 12: Linked List Part-II
-  { day: 12, index: 1, name: "Palindrome Linked List", difficulty: "Easy", category: "Linked List", leetcode: "https://leetcode.com/problems/palindrome-linked-list/" },
-  { day: 12, index: 2, name: "Reverse Nodes in k-Group", difficulty: "Hard", category: "Linked List", leetcode: "https://leetcode.com/problems/reverse-nodes-in-k-group/" },
-  { day: 12, index: 3, name: "Flattening a Linked List", difficulty: "Medium", category: "Linked List", leetcode: "https://practice.geeksforgeeks.org/problems/flattening-a-linked-list/1" },
+  { day: 12, index: 1, name: "Palindrome Linked List", difficulty: "Easy", category: "Linked List", leetcode: "https://leetcode.com/problems/palindrome-linked-list/", visualizerType: "linked-list" },
+  { day: 12, index: 2, name: "Reverse Nodes in k-Group", difficulty: "Hard", category: "Linked List", leetcode: "https://leetcode.com/problems/reverse-nodes-in-k-group/", visualizerType: "linked-list" },
+  { day: 12, index: 3, name: "Flattening a Linked List", difficulty: "Medium", category: "Linked List", leetcode: "https://practice.geeksforgeeks.org/problems/flattening-a-linked-list/1", visualizerType: "linked-list" },
 
   // Day 13: Linked List and Arrays
-  { day: 13, index: 1, name: "Rotate List", difficulty: "Medium", category: "Linked List", leetcode: "https://leetcode.com/problems/rotate-list/" },
-  { day: 13, index: 2, name: "Copy List with Random Pointer", difficulty: "Medium", category: "Linked List", leetcode: "https://leetcode.com/problems/copy-list-with-random-pointer/" },
-  { day: 13, index: 3, name: "3Sum", difficulty: "Medium", category: "Linked List", leetcode: "https://leetcode.com/problems/3sum/" },
+  { day: 13, index: 1, name: "Rotate List", difficulty: "Medium", category: "Linked List", leetcode: "https://leetcode.com/problems/rotate-list/", visualizerType: "linked-list" },
+  { day: 13, index: 2, name: "Copy List with Random Pointer", difficulty: "Medium", category: "Linked List", leetcode: "https://leetcode.com/problems/copy-list-with-random-pointer/", visualizerType: "linked-list" },
+  { day: 13, index: 3, name: "3Sum", difficulty: "Medium", category: "Linked List", leetcode: "https://leetcode.com/problems/3sum/", visualizerType: "two-sum" },
 
   // Day 14: Greedy Algorithm
-  { day: 14, index: 1, name: "N meetings in one room", difficulty: "Easy", category: "Greedy", leetcode: "https://practice.geeksforgeeks.org/problems/n-meetings-in-one-room-1587115620/1" },
-  { day: 14, index: 2, name: "Minimum Platforms", difficulty: "Medium", category: "Greedy", leetcode: "https://practice.geeksforgeeks.org/problems/minimum-platforms-1587115620/1" },
-  { day: 14, index: 3, name: "Job Sequencing Problem", difficulty: "Medium", category: "Greedy", leetcode: "https://practice.geeksforgeeks.org/problems/job-sequencing-problem-1587115620/1" },
+  { day: 14, index: 1, name: "N meetings in one room", difficulty: "Easy", category: "Greedy", leetcode: "https://practice.geeksforgeeks.org/problems/n-meetings-in-one-room-1587115620/1", visualizerType: "stack-queue" },
+  { day: 14, index: 2, name: "Minimum Platforms", difficulty: "Medium", category: "Greedy", leetcode: "https://practice.geeksforgeeks.org/problems/minimum-platforms-1587115620/1", visualizerType: "stack-queue" },
+  { day: 14, index: 3, name: "Job Sequencing Problem", difficulty: "Medium", category: "Greedy", leetcode: "https://practice.geeksforgeeks.org/problems/job-sequencing-problem-1587115620/1", visualizerType: "stack-queue" },
 
   // Day 15: Greedy Algorithm
-  { day: 15, index: 1, name: "Fractional Knapsack", difficulty: "Easy", category: "Greedy", leetcode: "https://practice.geeksforgeeks.org/problems/fractional-knapsack-1587115620/1" },
-  { day: 15, index: 2, name: "Find Minimum Number of Coins", difficulty: "Easy", category: "Greedy", leetcode: "https://practice.geeksforgeeks.org/problems/number-of-coins1824/1" },
-  { day: 15, index: 3, name: "Activity Selection", difficulty: "Easy", category: "Greedy", leetcode: "https://practice.geeksforgeeks.org/problems/activity-selection-1587115620/1" },
+  { day: 15, index: 1, name: "Fractional Knapsack", difficulty: "Easy", category: "Greedy", leetcode: "https://practice.geeksforgeeks.org/problems/fractional-knapsack-1587115620/1", visualizerType: "dp" },
+  { day: 15, index: 2, name: "Find Minimum Number of Coins", difficulty: "Easy", category: "Greedy", leetcode: "https://practice.geeksforgeeks.org/problems/number-of-coins1824/1", visualizerType: "stack-queue" },
+  { day: 15, index: 3, name: "Activity Selection", difficulty: "Easy", category: "Greedy", leetcode: "https://practice.geeksforgeeks.org/problems/activity-selection-1587115620/1", visualizerType: "stack-queue" },
 
   // Day 16: Recursion
-  { day: 16, index: 1, name: "Subset Sums", difficulty: "Easy", category: "Recursion", leetcode: "https://practice.geeksforgeeks.org/problems/subset-sums2234/1" },
-  { day: 16, index: 2, name: "Subsets II", difficulty: "Medium", category: "Recursion", leetcode: "https://leetcode.com/problems/subsets-ii/" },
-  { day: 16, index: 3, name: "Combination Sum", difficulty: "Medium", category: "Recursion", leetcode: "https://leetcode.com/problems/combination-sum/" },
+  { day: 16, index: 1, name: "Subset Sums", difficulty: "Easy", category: "Recursion", leetcode: "https://practice.geeksforgeeks.org/problems/subset-sums2234/1", visualizerType: "dp" },
+  { day: 16, index: 2, name: "Subsets II", difficulty: "Medium", category: "Recursion", leetcode: "https://leetcode.com/problems/subsets-ii/", visualizerType: "dp" },
+  { day: 16, index: 3, name: "Combination Sum", difficulty: "Medium", category: "Recursion", leetcode: "https://leetcode.com/problems/combination-sum/", visualizerType: "dp" },
 
   // Day 17: Recursion and Backtracking
-  { day: 17, index: 1, name: "Combination Sum II", difficulty: "Medium", category: "Recursion", leetcode: "https://leetcode.com/problems/combination-sum-ii/" },
-  { day: 17, index: 2, name: "Palindrome Partitioning", difficulty: "Medium", category: "Recursion", leetcode: "https://leetcode.com/problems/palindrome-partitioning/" },
-  { day: 17, index: 3, name: "Permutation Sequence", difficulty: "Hard", category: "Recursion", leetcode: "https://leetcode.com/problems/permutation-sequence/" },
+  { day: 17, index: 1, name: "Combination Sum II", difficulty: "Medium", category: "Recursion", leetcode: "https://leetcode.com/problems/combination-sum-ii/", visualizerType: "dp" },
+  { day: 17, index: 2, name: "Palindrome Partitioning", difficulty: "Medium", category: "Recursion", leetcode: "https://leetcode.com/problems/palindrome-partitioning/", visualizerType: "dp" },
+  { day: 17, index: 3, name: "Permutation Sequence", difficulty: "Hard", category: "Recursion", leetcode: "https://leetcode.com/problems/permutation-sequence/", visualizerType: "dp" },
 
   // Day 18: Backtracking
-  { day: 18, index: 1, name: "N-Queens", difficulty: "Hard", category: "Backtracking", leetcode: "https://leetcode.com/problems/n-queens/" },
-  { day: 18, index: 2, name: "Sudoku Solver", difficulty: "Hard", category: "Backtracking", leetcode: "https://leetcode.com/problems/sudoku-solver/" },
-  { day: 18, index: 3, name: "M-Coloring Problem", difficulty: "Medium", category: "Backtracking", leetcode: "https://practice.geeksforgeeks.org/problems/m-coloring-problem-1587115620/1" },
+  { day: 18, index: 1, name: "N-Queens", difficulty: "Hard", category: "Backtracking", leetcode: "https://leetcode.com/problems/n-queens/", visualizerType: "dp" },
+  { day: 18, index: 2, name: "Sudoku Solver", difficulty: "Hard", category: "Backtracking", leetcode: "https://leetcode.com/problems/sudoku-solver/", visualizerType: "dp" },
+  { day: 18, index: 3, name: "M-Coloring Problem", difficulty: "Medium", category: "Backtracking", leetcode: "https://practice.geeksforgeeks.org/problems/m-coloring-problem-1587115620/1", visualizerType: "dp" },
 
   // Day 19: Binary Search
-  { day: 19, index: 1, name: "Search in Rotated Sorted Array", difficulty: "Medium", category: "Binary Search", leetcode: "https://leetcode.com/problems/search-in-rotated-sorted-array/" },
-  { day: 19, index: 2, name: "Single Element in a Sorted Array", difficulty: "Medium", category: "Binary Search", leetcode: "https://leetcode.com/problems/single-element-in-a-sorted-array/" },
-  { day: 19, index: 3, name: "Median of Two Sorted Arrays", difficulty: "Hard", category: "Binary Search", leetcode: "https://leetcode.com/problems/median-of-two-sorted-arrays/" },
+  { day: 19, index: 1, name: "Search in Rotated Sorted Array", difficulty: "Medium", category: "Binary Search", leetcode: "https://leetcode.com/problems/search-in-rotated-sorted-array/", visualizerType: "binary-search" },
+  { day: 19, index: 2, name: "Single Element in a Sorted Array", difficulty: "Medium", category: "Binary Search", leetcode: "https://leetcode.com/problems/single-element-in-a-sorted-array/", visualizerType: "binary-search" },
+  { day: 19, index: 3, name: "Median of Two Sorted Arrays", difficulty: "Hard", category: "Binary Search", leetcode: "https://leetcode.com/problems/median-of-two-sorted-arrays/", visualizerType: "binary-search" },
 
   // Day 20: Binary Search
-  { day: 20, index: 1, name: "Allocate Books", difficulty: "Hard", category: "Binary Search", leetcode: "https://www.naukri.com/code360/problems/allocate-books_1090540" },
-  { day: 20, index: 2, name: "Aggressive Cows", difficulty: "Medium", category: "Binary Search", leetcode: "https://practice.geeksforgeeks.org/problems/aggressive-cows/1" },
-  { day: 20, index: 3, name: "K-th Element of Two Sorted Arrays", difficulty: "Medium", category: "Binary Search", leetcode: "https://practice.geeksforgeeks.org/problems/k-th-element-of-two-sorted-array1317/1" },
+  { day: 20, index: 1, name: "Allocate Books", difficulty: "Hard", category: "Binary Search", leetcode: "https://www.naukri.com/code360/problems/allocate-books_1090540", visualizerType: "binary-search" },
+  { day: 20, index: 2, name: "Aggressive Cows", difficulty: "Medium", category: "Binary Search", leetcode: "https://practice.geeksforgeeks.org/problems/aggressive-cows/1", visualizerType: "binary-search" },
+  { day: 20, index: 3, name: "K-th Element of Two Sorted Arrays", difficulty: "Medium", category: "Binary Search", leetcode: "https://practice.geeksforgeeks.org/problems/k-th-element-of-two-sorted-array1317/1", visualizerType: "binary-search" },
 
   // Day 21: Heaps
-  { day: 21, index: 1, name: "K Max Sum Combinations", difficulty: "Medium", category: "Heaps", leetcode: "https://www.interviewbit.com/problems/max-sum-combinations/" },
-  { day: 21, index: 2, name: "K-th Largest Element in an Array", difficulty: "Medium", category: "Heaps", leetcode: "https://leetcode.com/problems/kth-largest-element-in-an-array/" },
-  { day: 21, index: 3, name: "Merge K Sorted Arrays", difficulty: "Medium", category: "Heaps", leetcode: "https://practice.geeksforgeeks.org/problems/merge-k-sorted-arrays/1" },
+  { day: 21, index: 1, name: "K Max Sum Combinations", difficulty: "Medium", category: "Heaps", leetcode: "https://www.interviewbit.com/problems/max-sum-combinations/", visualizerType: "stack-queue" },
+  { day: 21, index: 2, name: "K-th Largest Element in an Array", difficulty: "Medium", category: "Heaps", leetcode: "https://leetcode.com/problems/kth-largest-element-in-an-array/", visualizerType: "stack-queue" },
+  { day: 21, index: 3, name: "Merge K Sorted Arrays", difficulty: "Medium", category: "Heaps", leetcode: "https://practice.geeksforgeeks.org/problems/merge-k-sorted-arrays/1", visualizerType: "stack-queue" },
 
   // Day 22: Heaps
-  { day: 22, index: 1, name: "Find Median from Data Stream", difficulty: "Hard", category: "Heaps", leetcode: "https://leetcode.com/problems/find-median-from-data-stream/" },
-  { day: 22, index: 2, name: "K Most Frequent Elements", difficulty: "Medium", category: "Heaps", leetcode: "https://leetcode.com/problems/top-k-frequent-elements/" },
-  { day: 22, index: 3, name: "Task Scheduler", difficulty: "Medium", category: "Heaps", leetcode: "https://leetcode.com/problems/task-scheduler/" },
+  { day: 22, index: 1, name: "Find Median from Data Stream", difficulty: "Hard", category: "Heaps", leetcode: "https://leetcode.com/problems/find-median-from-data-stream/", visualizerType: "stack-queue" },
+  { day: 22, index: 2, name: "K Most Frequent Elements", difficulty: "Medium", category: "Heaps", leetcode: "https://leetcode.com/problems/top-k-frequent-elements/", visualizerType: "stack-queue" },
+  { day: 22, index: 3, name: "Task Scheduler", difficulty: "Medium", category: "Heaps", leetcode: "https://leetcode.com/problems/task-scheduler/", visualizerType: "stack-queue" },
 
   // Day 23: Stack and Queue
-  { day: 23, index: 1, name: "Implement Stack using Queues", difficulty: "Easy", category: "Stack & Queue", leetcode: "https://leetcode.com/problems/implement-stack-using-queues/" },
-  { day: 23, index: 2, name: "Implement Queue using Stacks", difficulty: "Easy", category: "Stack & Queue", leetcode: "https://leetcode.com/problems/implement-queue-using-stacks/" },
-  { day: 23, index: 3, name: "Valid Parentheses", difficulty: "Easy", category: "Stack & Queue", leetcode: "https://leetcode.com/problems/valid-parentheses/" },
+  { day: 23, index: 1, name: "Implement Stack using Queues", difficulty: "Easy", category: "Stack & Queue", leetcode: "https://leetcode.com/problems/implement-stack-using-queues/", visualizerType: "stack-queue" },
+  { day: 23, index: 2, name: "Implement Queue using Stacks", difficulty: "Easy", category: "Stack & Queue", leetcode: "https://leetcode.com/problems/implement-queue-using-stacks/", visualizerType: "stack-queue" },
+  { day: 23, index: 3, name: "Valid Parentheses", difficulty: "Easy", category: "Stack & Queue", leetcode: "https://leetcode.com/problems/valid-parentheses/", visualizerType: "stack-queue" },
 
   // Day 24: Stack and Queue Part-II
-  { day: 24, index: 1, name: "Next Greater Element I", difficulty: "Medium", category: "Stack & Queue", leetcode: "https://leetcode.com/problems/next-greater-element-i/" },
-  { day: 24, index: 2, name: "LRU Cache", difficulty: "Hard", category: "Stack & Queue", leetcode: "https://leetcode.com/problems/lru-cache/" },
-  { day: 24, index: 3, name: "LFU Cache", difficulty: "Hard", category: "Stack & Queue", leetcode: "https://leetcode.com/problems/lfu-cache/" },
+  { day: 24, index: 1, name: "Next Greater Element I", difficulty: "Medium", category: "Stack & Queue", leetcode: "https://leetcode.com/problems/next-greater-element-i/", visualizerType: "stack-queue" },
+  { day: 24, index: 2, name: "LRU Cache", difficulty: "Hard", category: "Stack & Queue", leetcode: "https://leetcode.com/problems/lru-cache/", visualizerType: "stack-queue" },
+  { day: 24, index: 3, name: "LFU Cache", difficulty: "Hard", category: "Stack & Queue", leetcode: "https://leetcode.com/problems/lfu-cache/", visualizerType: "stack-queue" },
 
   // Day 25: Stack and Queue Part-II
-  { day: 25, index: 1, name: "Largest Rectangle in Histogram", difficulty: "Hard", category: "Stack & Queue", leetcode: "https://leetcode.com/problems/largest-rectangle-in-histogram/" },
-  { day: 25, index: 2, name: "Sliding Window Maximum", difficulty: "Hard", category: "Stack & Queue", leetcode: "https://leetcode.com/problems/sliding-window-maximum/" },
-  { day: 25, index: 3, name: "Min Stack", difficulty: "Easy", category: "Stack & Queue", leetcode: "https://leetcode.com/problems/min-stack/" },
+  { day: 25, index: 1, name: "Largest Rectangle in Histogram", difficulty: "Hard", category: "Stack & Queue", leetcode: "https://leetcode.com/problems/largest-rectangle-in-histogram/", visualizerType: "stack-queue" },
+  { day: 25, index: 2, name: "Sliding Window Maximum", difficulty: "Hard", category: "Stack & Queue", leetcode: "https://leetcode.com/problems/sliding-window-maximum/", visualizerType: "stack-queue" },
+  { day: 25, index: 3, name: "Min Stack", difficulty: "Easy", category: "Stack & Queue", leetcode: "https://leetcode.com/problems/min-stack/", visualizerType: "stack-queue" },
 
   // Day 26: String
-  { day: 26, index: 1, name: "Reverse Words in a String", difficulty: "Medium", category: "Strings", leetcode: "https://leetcode.com/problems/reverse-words-in-a-string/" },
-  { day: 26, index: 2, name: "Longest Palindromic Substring", difficulty: "Medium", category: "Strings", leetcode: "https://leetcode.com/problems/longest-palindromic-substring/" },
-  { day: 26, index: 3, name: "Roman to Integer", difficulty: "Easy", category: "Strings", leetcode: "https://leetcode.com/problems/roman-to-integer/" },
+  { day: 26, index: 1, name: "Reverse Words in a String", difficulty: "Medium", category: "Strings", leetcode: "https://leetcode.com/problems/reverse-words-in-a-string/", visualizerType: "two-sum" },
+  { day: 26, index: 2, name: "Longest Palindromic Substring", difficulty: "Medium", category: "Strings", leetcode: "https://leetcode.com/problems/longest-palindromic-substring/", visualizerType: "two-sum" },
+  { day: 26, index: 3, name: "Roman to Integer", difficulty: "Easy", category: "Strings", leetcode: "https://leetcode.com/problems/roman-to-integer/", visualizerType: "two-sum" },
 
   // Day 27: String
-  { day: 27, index: 1, name: "Integer to Roman", difficulty: "Medium", category: "Strings", leetcode: "https://leetcode.com/problems/integer-to-roman/" },
-  { day: 27, index: 2, name: "Implement strStr() / KMP", difficulty: "Medium", category: "Strings", leetcode: "https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/" },
-  { day: 27, index: 3, name: "String to Integer (atoi)", difficulty: "Medium", category: "Strings", leetcode: "https://leetcode.com/problems/string-to-integer-atoi/" },
+  { day: 27, index: 1, name: "Integer to Roman", difficulty: "Medium", category: "Strings", leetcode: "https://leetcode.com/problems/integer-to-roman/", visualizerType: "two-sum" },
+  { day: 27, index: 2, name: "Implement strStr() / KMP", difficulty: "Medium", category: "Strings", leetcode: "https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/", visualizerType: "kadane" },
+  { day: 27, index: 3, name: "String to Integer (atoi)", difficulty: "Medium", category: "Strings", leetcode: "https://leetcode.com/problems/string-to-integer-atoi/", visualizerType: "kadane" },
 
   // Day 28: String Part-II
-  { day: 28, index: 1, name: "Longest Common Prefix", difficulty: "Easy", category: "Strings", leetcode: "https://leetcode.com/problems/longest-common-prefix/" },
-  { day: 28, index: 2, name: "Valid Anagram", difficulty: "Easy", category: "Strings", leetcode: "https://leetcode.com/problems/valid-anagram/" },
-  { day: 28, index: 3, name: "Count and Say", difficulty: "Medium", category: "Strings", leetcode: "https://leetcode.com/problems/count-and-say/" },
+  { day: 28, index: 1, name: "Longest Common Prefix", difficulty: "Easy", category: "Strings", leetcode: "https://leetcode.com/problems/longest-common-prefix/", visualizerType: "two-sum" },
+  { day: 28, index: 2, name: "Valid Anagram", difficulty: "Easy", category: "Strings", leetcode: "https://leetcode.com/problems/valid-anagram/", visualizerType: "two-sum" },
+  { day: 28, index: 3, name: "Count and Say", difficulty: "Medium", category: "Strings", leetcode: "https://leetcode.com/problems/count-and-say/", visualizerType: "two-sum" },
 
   // Day 29: Binary Tree
-  { day: 29, index: 1, name: "Binary Tree Inorder Traversal", difficulty: "Easy", category: "Binary Trees", leetcode: "https://leetcode.com/problems/binary-tree-inorder-traversal/" },
-  { day: 29, index: 2, name: "Binary Tree Preorder Traversal", difficulty: "Easy", category: "Binary Trees", leetcode: "https://leetcode.com/problems/binary-tree-preorder-traversal/" },
-  { day: 29, index: 3, name: "Binary Tree Postorder Traversal", difficulty: "Easy", category: "Binary Trees", leetcode: "https://leetcode.com/problems/binary-tree-postorder-traversal/" },
+  { day: 29, index: 1, name: "Binary Tree Inorder Traversal", difficulty: "Easy", category: "Binary Trees", leetcode: "https://leetcode.com/problems/binary-tree-inorder-traversal/", visualizerType: "binary-tree" },
+  { day: 29, index: 2, name: "Binary Tree Preorder Traversal", difficulty: "Easy", category: "Binary Trees", leetcode: "https://leetcode.com/problems/binary-tree-preorder-traversal/", visualizerType: "binary-tree" },
+  { day: 29, index: 3, name: "Binary Tree Postorder Traversal", difficulty: "Easy", category: "Binary Trees", leetcode: "https://leetcode.com/problems/binary-tree-postorder-traversal/", visualizerType: "binary-tree" },
 
   // Day 30: Binary Tree
-  { day: 30, index: 1, name: "Left View of Binary Tree", difficulty: "Easy", category: "Binary Trees", leetcode: "https://practice.geeksforgeeks.org/problems/left-view-of-binary-tree/1" },
-  { day: 30, index: 2, name: "Bottom View of Binary Tree", difficulty: "Medium", category: "Binary Trees", leetcode: "https://practice.geeksforgeeks.org/problems/bottom-view-of-binary-tree/1" },
-  { day: 30, index: 3, name: "Top View of Binary Tree", difficulty: "Medium", category: "Binary Trees", leetcode: "https://practice.geeksforgeeks.org/problems/top-view-of-binary-tree/1" },
+  { day: 30, index: 1, name: "Left View of Binary Tree", difficulty: "Easy", category: "Binary Trees", leetcode: "https://practice.geeksforgeeks.org/problems/left-view-of-binary-tree/1", visualizerType: "binary-tree" },
+  { day: 30, index: 2, name: "Bottom View of Binary Tree", difficulty: "Medium", category: "Binary Trees", leetcode: "https://practice.geeksforgeeks.org/problems/bottom-view-of-binary-tree/1", visualizerType: "binary-tree" },
+  { day: 30, index: 3, name: "Top View of Binary Tree", difficulty: "Medium", category: "Binary Trees", leetcode: "https://practice.geeksforgeeks.org/problems/top-view-of-binary-tree/1", visualizerType: "binary-tree" },
 
   // Day 31: Binary Tree Part-II
-  { day: 31, index: 1, name: "Binary Tree Level Order Traversal", difficulty: "Medium", category: "Binary Trees", leetcode: "https://leetcode.com/problems/binary-tree-level-order-traversal/" },
-  { day: 31, index: 2, name: "Height of a Binary Tree", difficulty: "Easy", category: "Binary Trees", leetcode: "https://leetcode.com/problems/maximum-depth-of-binary-tree/" },
-  { day: 31, index: 3, name: "Diameter of Binary Tree", difficulty: "Easy", category: "Binary Trees", leetcode: "https://leetcode.com/problems/diameter-of-binary-tree/" },
+  { day: 31, index: 1, name: "Binary Tree Level Order Traversal", difficulty: "Medium", category: "Binary Trees", leetcode: "https://leetcode.com/problems/binary-tree-level-order-traversal/", visualizerType: "binary-tree" },
+  { day: 31, index: 2, name: "Height of a Binary Tree", difficulty: "Easy", category: "Binary Trees", leetcode: "https://leetcode.com/problems/maximum-depth-of-binary-tree/", visualizerType: "binary-tree" },
+  { day: 31, index: 3, name: "Diameter of Binary Tree", difficulty: "Easy", category: "Binary Trees", leetcode: "https://leetcode.com/problems/diameter-of-binary-tree/", visualizerType: "binary-tree" },
 
   // Day 32: Binary Tree Part-II
-  { day: 32, index: 1, name: "Balanced Binary Tree", difficulty: "Easy", category: "Binary Trees", leetcode: "https://leetcode.com/problems/balanced-binary-tree/" },
-  { day: 32, index: 2, name: "LCA of Binary Tree", difficulty: "Medium", category: "Binary Trees", leetcode: "https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/" },
-  { day: 32, index: 3, name: "Same Tree", difficulty: "Easy", category: "Binary Trees", leetcode: "https://leetcode.com/problems/same-tree/" },
+  { day: 32, index: 1, name: "Balanced Binary Tree", difficulty: "Easy", category: "Binary Trees", leetcode: "https://leetcode.com/problems/balanced-binary-tree/", visualizerType: "binary-tree" },
+  { day: 32, index: 2, name: "LCA of Binary Tree", difficulty: "Medium", category: "Binary Trees", leetcode: "https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/", visualizerType: "binary-tree" },
+  { day: 32, index: 3, name: "Same Tree", difficulty: "Easy", category: "Binary Trees", leetcode: "https://leetcode.com/problems/same-tree/", visualizerType: "binary-tree" },
 
   // Day 33: Binary Tree Part-III
-  { day: 33, index: 1, name: "Binary Tree Maximum Path Sum", difficulty: "Hard", category: "Binary Trees", leetcode: "https://leetcode.com/problems/binary-tree-maximum-path-sum/" },
-  { day: 33, index: 2, name: "Construct Binary Tree from Preorder and Inorder Traversal", difficulty: "Medium", category: "Binary Trees", leetcode: "https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/" },
-  { day: 33, index: 3, name: "Symmetric Tree", difficulty: "Easy", category: "Binary Trees", leetcode: "https://leetcode.com/problems/symmetric-tree/" },
+  { day: 33, index: 1, name: "Binary Tree Maximum Path Sum", difficulty: "Hard", category: "Binary Trees", leetcode: "https://leetcode.com/problems/binary-tree-maximum-path-sum/", visualizerType: "binary-tree" },
+  { day: 33, index: 2, name: "Construct Binary Tree from Preorder and Inorder Traversal", difficulty: "Medium", category: "Binary Trees", leetcode: "https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/", visualizerType: "binary-tree" },
+  { day: 33, index: 3, name: "Symmetric Tree", difficulty: "Easy", category: "Binary Trees", leetcode: "https://leetcode.com/problems/symmetric-tree/", visualizerType: "binary-tree" },
 
   // Day 34: Binary Search Tree
-  { day: 34, index: 1, name: "Populate Next Right Pointers", difficulty: "Medium", category: "BST", leetcode: "https://leetcode.com/problems/populating-next-right-pointers-in-each-node/" },
-  { day: 34, index: 2, name: "Search in a Binary Search Tree", difficulty: "Easy", category: "BST", leetcode: "https://leetcode.com/problems/search-in-a-binary-search-tree/" },
-  { day: 34, index: 3, name: "Convert Sorted Array to BST", difficulty: "Easy", category: "BST", leetcode: "https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/" },
+  { day: 34, index: 1, name: "Populate Next Right Pointers", difficulty: "Medium", category: "BST", leetcode: "https://leetcode.com/problems/populating-next-right-pointers-in-each-node/", visualizerType: "binary-tree" },
+  { day: 34, index: 2, name: "Search in a Binary Search Tree", difficulty: "Easy", category: "BST", leetcode: "https://leetcode.com/problems/search-in-a-binary-search-tree/", visualizerType: "binary-tree" },
+  { day: 34, index: 3, name: "Convert Sorted Array to BST", difficulty: "Easy", category: "BST", leetcode: "https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/", visualizerType: "binary-tree" },
 
   // Day 35: Binary Search Tree
-  { day: 35, index: 1, name: "Construct BST from Preorder", difficulty: "Medium", category: "BST", leetcode: "https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal/" },
-  { day: 35, index: 2, name: "Validate Binary Search Tree", difficulty: "Medium", category: "BST", leetcode: "https://leetcode.com/problems/validate-binary-search-tree/" },
-  { day: 35, index: 3, name: "LCA of a Binary Search Tree", difficulty: "Easy", category: "BST", leetcode: "https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/" },
+  { day: 35, index: 1, name: "Construct BST from Preorder", difficulty: "Medium", category: "BST", leetcode: "https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal/", visualizerType: "binary-tree" },
+  { day: 35, index: 2, name: "Validate Binary Search Tree", difficulty: "Medium", category: "BST", leetcode: "https://leetcode.com/problems/validate-binary-search-tree/", visualizerType: "binary-tree" },
+  { day: 35, index: 3, name: "LCA of a Binary Search Tree", difficulty: "Easy", category: "BST", leetcode: "https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/", visualizerType: "binary-tree" },
 
   // Day 36: BST Part-II
-  { day: 36, index: 1, name: "Predecessor and Successor", difficulty: "Medium", category: "BST", leetcode: "https://practice.geeksforgeeks.org/problems/predecessor-and-successor/1" },
-  { day: 36, index: 2, name: "Floor in BST", difficulty: "Medium", category: "BST", leetcode: "https://www.naukri.com/code360/problems/floor-from-bst_920457" },
-  { day: 36, index: 3, name: "Ceil in BST", difficulty: "Medium", category: "BST", leetcode: "https://www.naukri.com/code360/problems/ceil-from-bst_920464" },
+  { day: 36, index: 1, name: "Predecessor and Successor", difficulty: "Medium", category: "BST", leetcode: "https://practice.geeksforgeeks.org/problems/predecessor-and-successor/1", visualizerType: "binary-tree" },
+  { day: 36, index: 2, name: "Floor in BST", difficulty: "Medium", category: "BST", leetcode: "https://www.naukri.com/code360/problems/floor-from-bst_920457", visualizerType: "binary-tree" },
+  { day: 36, index: 3, name: "Ceil in BST", difficulty: "Medium", category: "BST", leetcode: "https://www.naukri.com/code360/problems/ceil-from-bst_920464", visualizerType: "binary-tree" },
 
   // Day 37: BST Part-II
-  { day: 37, index: 1, name: "Kth Smallest Element in BST", difficulty: "Medium", category: "BST", leetcode: "https://leetcode.com/problems/kth-smallest-element-in-a-bst/" },
-  { day: 37, index: 2, name: "Kth Largest Element in BST", difficulty: "Medium", category: "BST", leetcode: "https://practice.geeksforgeeks.org/problems/kth-largest-element-in-bst/1" },
-  { day: 37, index: 3, name: "Two Sum IV - Input is a BST", difficulty: "Easy", category: "BST", leetcode: "https://leetcode.com/problems/two-sum-iv-input-is-a-bst/" },
+  { day: 37, index: 1, name: "Kth Smallest Element in BST", difficulty: "Medium", category: "BST", leetcode: "https://leetcode.com/problems/kth-smallest-element-in-a-bst/", visualizerType: "binary-tree" },
+  { day: 37, index: 2, name: "Kth Largest Element in BST", difficulty: "Medium", category: "BST", leetcode: "https://practice.geeksforgeeks.org/problems/kth-largest-element-in-bst/1", visualizerType: "binary-tree" },
+  { day: 37, index: 3, name: "Two Sum IV - Input is a BST", difficulty: "Easy", category: "BST", leetcode: "https://leetcode.com/problems/two-sum-iv-input-is-a-bst/", visualizerType: "two-sum" },
 
   // Day 38: Graph
-  { day: 38, index: 1, name: "DFS Traversal", difficulty: "Easy", category: "Graphs", leetcode: "https://practice.geeksforgeeks.org/problems/depth-first-traversal-for-a-graph/1" },
-  { day: 38, index: 2, name: "BFS Traversal", difficulty: "Easy", category: "Graphs", leetcode: "https://practice.geeksforgeeks.org/problems/bfs-traversal-of-graph/1" },
-  { day: 38, index: 3, name: "Cycle Detection Undirected Graph", difficulty: "Medium", category: "Graphs", leetcode: "https://practice.geeksforgeeks.org/problems/detect-cycle-in-an-undirected-graph/1" },
+  { day: 38, index: 1, name: "DFS Traversal", difficulty: "Easy", category: "Graphs", leetcode: "https://practice.geeksforgeeks.org/problems/depth-first-traversal-for-a-graph/1", visualizerType: "graph" },
+  { day: 38, index: 2, name: "BFS Traversal", difficulty: "Easy", category: "Graphs", leetcode: "https://practice.geeksforgeeks.org/problems/bfs-traversal-of-graph/1", visualizerType: "graph" },
+  { day: 38, index: 3, name: "Cycle Detection Undirected Graph", difficulty: "Medium", category: "Graphs", leetcode: "https://practice.geeksforgeeks.org/problems/detect-cycle-in-an-undirected-graph/1", visualizerType: "graph" },
 
   // Day 39: Graph
-  { day: 39, index: 1, name: "Topological Sort Kahn's Algo", difficulty: "Medium", category: "Graphs", leetcode: "https://practice.geeksforgeeks.org/problems/topological-sort/1" },
-  { day: 39, index: 2, name: "Number of Islands", difficulty: "Medium", category: "Graphs", leetcode: "https://leetcode.com/problems/number-of-islands/" },
-  { day: 39, index: 3, name: "Bipartite Graph BFS/DFS", difficulty: "Medium", category: "Graphs", leetcode: "https://leetcode.com/problems/is-graph-bipartite/" },
+  { day: 39, index: 1, name: "Topological Sort Kahn's Algo", difficulty: "Medium", category: "Graphs", leetcode: "https://practice.geeksforgeeks.org/problems/topological-sort/1", visualizerType: "graph" },
+  { day: 39, index: 2, name: "Number of Islands", difficulty: "Medium", category: "Graphs", leetcode: "https://leetcode.com/problems/number-of-islands/", visualizerType: "graph" },
+  { day: 39, index: 3, name: "Bipartite Graph BFS/DFS", difficulty: "Medium", category: "Graphs", leetcode: "https://leetcode.com/problems/is-graph-bipartite/", visualizerType: "graph" },
 
   // Day 40: Graph Part-II
-  { day: 40, index: 1, name: "Dijkstra's Algorithm", difficulty: "Medium", category: "Graphs", leetcode: "https://practice.geeksforgeeks.org/problems/implementing-dijkstra-set-1-adjacency-matrix/1" },
-  { day: 40, index: 2, name: "Bellman Ford Algorithm", difficulty: "Medium", category: "Graphs", leetcode: "https://practice.geeksforgeeks.org/problems/distance-from-the-source-bellman-ford/1" },
-  { day: 40, index: 3, name: "Floyd Warshall Algorithm", difficulty: "Medium", category: "Graphs", leetcode: "https://practice.geeksforgeeks.org/problems/implementing-floyd-warshall2042/1" },
+  { day: 40, index: 1, name: "Dijkstra's Algorithm", difficulty: "Medium", category: "Graphs", leetcode: "https://practice.geeksforgeeks.org/problems/implementing-dijkstra-set-1-adjacency-matrix/1", visualizerType: "graph" },
+  { day: 40, index: 2, name: "Bellman Ford Algorithm", difficulty: "Medium", category: "Graphs", leetcode: "https://practice.geeksforgeeks.org/problems/distance-from-the-source-bellman-ford/1", visualizerType: "graph" },
+  { day: 40, index: 3, name: "Floyd Warshall Algorithm", difficulty: "Medium", category: "Graphs", leetcode: "https://practice.geeksforgeeks.org/problems/implementing-floyd-warshall2042/1", visualizerType: "graph" },
 
   // Day 41: Dynamic Programming
-  { day: 41, index: 1, name: "Max Product Subarray", difficulty: "Medium", category: "DP", leetcode: "https://leetcode.com/problems/maximum-product-subarray/" },
-  { day: 41, index: 2, name: "Longest Increasing Subsequence", difficulty: "Medium", category: "DP", leetcode: "https://leetcode.com/problems/longest-increasing-subsequence/" },
-  { day: 41, index: 3, name: "Longest Common Subsequence", difficulty: "Medium", category: "DP", leetcode: "https://leetcode.com/problems/longest-common-subsequence/" },
+  { day: 41, index: 1, name: "Max Product Subarray", difficulty: "Medium", category: "DP", leetcode: "https://leetcode.com/problems/maximum-product-subarray/", visualizerType: "dp" },
+  { day: 41, index: 2, name: "Longest Increasing Subsequence", difficulty: "Medium", category: "DP", leetcode: "https://leetcode.com/problems/longest-increasing-subsequence/", visualizerType: "dp" },
+  { day: 41, index: 3, name: "Longest Common Subsequence", difficulty: "Medium", category: "DP", leetcode: "https://leetcode.com/problems/longest-common-subsequence/", visualizerType: "dp" },
 
   // Day 42: Dynamic Programming
-  { day: 42, index: 1, name: "0-1 Knapsack", difficulty: "Medium", category: "DP", leetcode: "https://practice.geeksforgeeks.org/problems/0-1-knapsack-problem0945/1" },
-  { day: 42, index: 2, name: "Edit Distance", difficulty: "Hard", category: "DP", leetcode: "https://leetcode.com/problems/edit-distance/" },
-  { day: 42, index: 3, name: "Partition Equal Subset Sum", difficulty: "Medium", category: "DP", leetcode: "https://leetcode.com/problems/partition-equal-subset-sum/" },
+  { day: 42, index: 1, name: "0-1 Knapsack", difficulty: "Medium", category: "DP", leetcode: "https://practice.geeksforgeeks.org/problems/0-1-knapsack-problem0945/1", visualizerType: "dp" },
+  { day: 42, index: 2, name: "Edit Distance", difficulty: "Hard", category: "DP", leetcode: "https://leetcode.com/problems/edit-distance/", visualizerType: "dp" },
+  { day: 42, index: 3, name: "Partition Equal Subset Sum", difficulty: "Medium", category: "DP", leetcode: "https://leetcode.com/problems/partition-equal-subset-sum/", visualizerType: "dp" },
 
   // Day 43: DP Part-II
-  { day: 43, index: 1, name: "Matrix Chain Multiplication", difficulty: "Hard", category: "DP", leetcode: "https://practice.geeksforgeeks.org/problems/matrix-chain-multiplication0303/1" },
-  { day: 43, index: 2, name: "Maximum Path Sum in Matrix", difficulty: "Medium", category: "DP", leetcode: "https://practice.geeksforgeeks.org/problems/path-in-matrix3805/1" },
-  { day: 43, index: 3, name: "Rod Cutting", difficulty: "Medium", category: "DP", leetcode: "https://practice.geeksforgeeks.org/problems/rod-cutting0840/1" },
+  { day: 43, index: 1, name: "Matrix Chain Multiplication", difficulty: "Hard", category: "DP", leetcode: "https://practice.geeksforgeeks.org/problems/matrix-chain-multiplication0303/1", visualizerType: "dp" },
+  { day: 43, index: 2, name: "Maximum Path Sum in Matrix", difficulty: "Medium", category: "DP", leetcode: "https://practice.geeksforgeeks.org/problems/path-in-matrix3805/1", visualizerType: "dp" },
+  { day: 43, index: 3, name: "Rod Cutting", difficulty: "Medium", category: "DP", leetcode: "https://practice.geeksforgeeks.org/problems/rod-cutting0840/1", visualizerType: "dp" },
 
   // Day 44: Trie
-  { day: 44, index: 1, name: "Implement Trie (Prefix Tree)", difficulty: "Medium", category: "Trie", leetcode: "https://leetcode.com/problems/implement-trie-prefix-tree/" },
-  { day: 44, index: 2, name: "Implement Trie II", difficulty: "Medium", category: "Trie", leetcode: "https://practice.geeksforgeeks.org/problems/implement-trie-ii/1" },
-  { day: 44, index: 3, name: "Longest String with All Prefixes", difficulty: "Medium", category: "Trie", leetcode: "https://www.naukri.com/code360/problems/complete-string_2687860" },
+  { day: 44, index: 1, name: "Implement Trie (Prefix Tree)", difficulty: "Medium", category: "Trie", leetcode: "https://leetcode.com/problems/implement-trie-prefix-tree/", visualizerType: "trie" },
+  { day: 44, index: 2, name: "Implement Trie II", difficulty: "Medium", category: "Trie", leetcode: "https://practice.geeksforgeeks.org/problems/implement-trie-ii/1", visualizerType: "trie" },
+  { day: 44, index: 3, name: "Longest String with All Prefixes", difficulty: "Medium", category: "Trie", leetcode: "https://www.naukri.com/code360/problems/complete-string_2687860", visualizerType: "trie" },
 
   // Day 45: Trie
-  { day: 45, index: 1, name: "Maximum XOR of Two Numbers", difficulty: "Medium", category: "Trie", leetcode: "https://leetcode.com/problems/maximum-xor-of-two-numbers-in-an-array/" },
-  { day: 45, index: 2, name: "Maximum XOR With an Element", difficulty: "Hard", category: "Trie", leetcode: "https://leetcode.com/problems/maximum-xor-with-an-element-from-array/" },
-  { day: 45, index: 3, name: "Number of Distinct Substrings", difficulty: "Medium", category: "Trie", leetcode: "https://practice.geeksforgeeks.org/problems/number-of-distinct-substrings-in-a-string/1" }
+  { day: 45, index: 1, name: "Maximum XOR of Two Numbers", difficulty: "Medium", category: "Trie", leetcode: "https://leetcode.com/problems/maximum-xor-of-two-numbers-in-an-array/", visualizerType: "trie" },
+  { day: 45, index: 2, name: "Maximum XOR With an Element", difficulty: "Hard", category: "Trie", leetcode: "https://leetcode.com/problems/maximum-xor-with-an-element-from-array/", visualizerType: "trie" },
+  { day: 45, index: 3, name: "Number of Distinct Substrings", difficulty: "Medium", category: "Trie", leetcode: "https://practice.geeksforgeeks.org/problems/number-of-distinct-substrings-in-a-string/1", visualizerType: "trie" }
 ];
 
 // Lookup table for exact complexities and pattern tags for all 135 problems

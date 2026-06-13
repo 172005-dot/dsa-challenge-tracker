@@ -614,7 +614,7 @@ function ProblemWorkspace({ problem, progData, isStarred, onToggleStar, onUpdate
               </div>
 
               {/* Step Visualizer */}
-              <Visualizer steps={problem.visualizerSteps} type={problem.visualizerType || 'two-pointer'} />
+            <Visualizer problem={problem} />
 
               {/* Dry Run Table */}
               <div className="space-y-2">
