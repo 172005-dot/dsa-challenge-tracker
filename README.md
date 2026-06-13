@@ -1,16 +1,39 @@
-# React + Vite
+DSA Challenge Tracker
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A web app to track your progress through a structured DSA (Data Structures & Algorithms) practice sheet — covering arrays, linked lists, trees, graphs, dynamic programming, tries, and more.
 
-Currently, two official plugins are available:
+🔗 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+https://dsa-challenge-tracker.vercel.app/
 
-## React Compiler
+✨ Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## Expanding the ESLint configuration
+Day-wise structured problem list (Easy / Medium / Hard)
+Direct links to LeetCode / GFG / Naukri Code360 problems
+Algorithm visualizers (DP, Trie, Graph, Tree, Linked List, etc.)
+Progress tracking across topics like Arrays, DP, Tries, Graphs
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+🛠️ Tech Stack
+
+
+React
+Vite
+Tailwind CSS
+
+
+🚀 Getting Started
+
+bashnpm install
+npm run dev
+
+The app will be available at http://localhost:5173.
+
+📦 Build for Production
+
+bashnpm run build
+
+📄 License
+
+This project is for personal learning and DSA practice tracking.
